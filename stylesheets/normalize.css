@@ -5,6 +5,37 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+ 
+  <style type="text/css">
+      body {
+        font-family: helvetica; color: #959595;
+      }
+      a:link,a:visited,a:hover {text-decoration: none;}
+      .wrapper {
+        max-width: 920px; margin: 0 auto;
+        padding: 0 20px;
+      }
+      .intro {
+        text-align: center; margin-bottom: 36px;
+      }
+      h1 {margin-top: 0; margin-bottom: 3px; color: #144A6B;}
+      h3 {margin-top: 0; margin-bottom: 3px; color: #144A6B;}
+      h5 {margin: 0; color: #144A6B;}
+      h2{text-align: center;}
+      .project {margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid #ddd;}
+      .project h2 {text-decoration: none; color: #217CB5;}
+      .images {display: block;}
+      .images .image { float: left;}
+      .image img {width: 100%; outline: 1px solid #ddd; height: 100%;}
+      .images .big {width: 48%; padding: 1%; height: 300px;}
+      .images .small {width: 23%; padding: 1%; height: 141px;}
+    
+      .project:hover h2 {color: #144A6B;}
+      .project:hover .image img {outline-color: #217CB5;}
+      .desc li {
+        margin-bottom: 12px; line-height: 1.3em;
+      }
+   </style>
 
 html {
   font-family: sans-serif; /* 1 */
