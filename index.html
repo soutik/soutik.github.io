@@ -1,77 +1,74 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Soutik Chakraborty by soutik</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Soutik Chakraborty</h1>
-      <h2 class="project-tagline">Master&#39;s Student in IM: Data Science &amp; Analytics at the University of Washington</h2>
+<html>
+ <head>
+   <style type="text/css">
+      body {
+        font-family: helvetica; color: #000000;
+      }
+      a:link,a:visited,a:hover {text-decoration: none;}
+      .wrapper {
+        max-width: 920px; margin: 0 auto;
+        padding: 0 20px;
+      }
+      .intro {
+        text-align: center; margin-bottom: 36px;
+      }
+      h1 {margin-top: 0; margin-bottom: 3px; color: #144A6B;}
+      h3 {margin-top: 0; margin-bottom: 3px; color: #144A6B;}
+      h5 {margin: 0; color: #144A6B;}
+      h2{text-align: center;}
+      .project {margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid #ddd;}
+      .project h2 {text-decoration: none; color: #217CB5;}
+      .images {display: block;}
+      .images .image { float: left;}
+      .image img {width: 100%; outline: 1px solid #ddd; height: 100%;}
+      .images .big {width: 48%; padding: 1%; height: 300px;}
+      .images .small {width: 23%; padding: 1%; height: 141px;}
+    
+      .project:hover h2 {color: #144A6B;}
+      .project:hover .image img {outline-color: #217CB5;}
+      .desc li {
+        margin-bottom: 12px; line-height: 1.3em;
+      }
+   </style>
+
+
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/d3.v3.js"></script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="intro">
+      <h1>Soutik Chakraborty</h1>
+      <h3>Data Science &amp; Analytics</h3>
+      <img src="uw.png" height="100" width="250">
+
+    </div>
+
+    
+
+
+<section class="project">
+      <a class="images" href="http://soutik.github.io/Twitter-Sentiment-Analysis/">
+        <h2>Twitter Sentiment Analysis</h2>
+        <div id="parent">
+            <div class="image big"><img src="tweet1.png"></div>
+            <div class="image big"><img src="tweet2.png"></div>
+            <div style="clear:both"></div>
+        </div>
+      </a>
+
+      <div class="desc">
+        <ul>
+         <li> Used TwitteR package inside Twitter to pull tweets containing a certain word/phrase </li>
+         <li> Created 'Sentiment' function inside R to analyse each tweet and attaching an emotion that the tweet showcases. </li>
+          <li>Created a wordcloud including the most frequent words found in those tweets. </li>
+
+          <li>This project can be used to find any word and any number of tweets (As permitted by the Twitter API by just changing 2 words in the code). </li>
+
+
+</ul>
+      </div>
     </section>
-
-    <section class="main-content">
-      <h1>
-<a id="welcome-to-soutik-chakrabortys-project-page" class="anchor" href="#welcome-to-soutik-chakrabortys-project-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Soutik Chakraborty's Project Page</h1>
-
-<p>Hello this is Soutik Chakraborty - Master's Student at University of Washington, Seattle studying Information Management specialisation in Data Science &amp; Analytics. You will find all my data science projects here! You can view more at my GitHub Repository - <a href="https://github.com/soutik">Soutik's GitHub Repo</a></p>
-
-<p>Please feel free to contact me at <a href="mailto:soutikc@uw.edu">soutikc@uw.edu</a> for any opportunities or collaborations</p>
-
-<h1>
-<a id="projects" class="anchor" href="#projects" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Projects</strong>
-</h1>
-
-<hr>
-
-<hr>
-
-<h3>
-<a id="twitter-sentiment-analysis-with-wordcloud" class="anchor" href="#twitter-sentiment-analysis-with-wordcloud" aria-hidden="true"><span class="octicon octicon-link"></span></a>Twitter Sentiment Analysis with WordCloud</h3>
-
-<hr>
-
-<p>In this project I used TwitteR package inside Twitter to pull tweets containing a certain word/phrase and then used 'Sentiment' function inside R to analyse each tweet and attaching an emotion that the tweet showcases. We then create a wordcloud including the most frequent words found in those tweets.</p>
-
-<p>This project can be used to find any word and any number of tweets (As permitted by the Twitter API by just changing 2 words in the code).</p>
-
-<p>Find the code and output here : <a href="http://soutik.github.io/Twitter-Sentiment-Analysis">Twitter Sentiment Analysis</a></p>
-
-<p>To download/fork the code click here : <a href="https://github.com/soutik/Twitter-Sentiment-Analysis">Github code - Twitter Sentiment Analysis</a></p>
-
-<h3>
-<a id="nyc-school-sat-score-analysis" class="anchor" href="#nyc-school-sat-score-analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a>NYC School SAT score analysis</h3>
-
-<hr>
-
-<p>In this project I took the NYC city school data and did some analysis showcasing trends in SAT scores from each school and then figuring out which are the best schools for high SAT score outcome.</p>
-
-<p>Find the code and output here : <a href="http://soutik.github.io/NYC-school-SAT-score">NYC SAT score analysis</a></p>
-
-<p>To download/fork the code click here : <a href="https://github.com/soutik/NYC-school-SAT-score">Github code - NYC SAT score analysis</a></p>
-
-      <footer class="site-footer">
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-50872968-5");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
-</html>
